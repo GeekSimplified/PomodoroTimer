@@ -82,7 +82,7 @@ function buttonDisplay() {
 function updateHTML() {
   countdownDisplay();
   buttonDisplay();
-  isBreak ? status.textContent = "Work It Out" : status.textContent = "Break Time!";
+  isBreak ? status.textContent = "Focus Time" : status.textContent = "Break Time!";
   workMin.textContent = workTime;
   breakMin.textContent = breakTime;  
 }
