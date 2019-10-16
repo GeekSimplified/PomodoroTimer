@@ -13,7 +13,7 @@ const workMin = document.querySelector("#work-min");
 const breakMin = document.querySelector("#break-min");
 
 const alarm = document.createElement('audio'); // A bell sound will play when the timer reaches 0
-alarm.setAttribute("src", "https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3");
+alarm.setAttribute("src", "https://www.soundjay.com/misc/sounds/bell-ring-01.mp3");
 
 
 /* EVENT LISTENERS FOR START AND RESET BUTTONS */
